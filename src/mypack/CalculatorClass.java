@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 
 public class CalculatorClass {
-	static boolean restart = true;
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int a,b,option=0;
@@ -33,8 +32,6 @@ public class CalculatorClass {
 	private static int operation(int option,int a,int b) {
 		// TODO Auto-generated method stub
 		int result=0;
-		restart = true;
-		//int option = 0;
 		switch(option) {
 		case 1: System.out.println("Addition of number is :-");
 		result = a+b;
