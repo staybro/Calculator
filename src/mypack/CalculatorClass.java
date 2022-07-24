@@ -2,7 +2,6 @@ package mypack;
 
 import java.util.Scanner;
 
-import javax.swing.tree.AbstractLayoutCache;
 
 public class CalculatorClass {
 	static boolean restart = true;
